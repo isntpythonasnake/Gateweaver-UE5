@@ -1,7 +1,7 @@
 # Gateweaver
 **A portal creation kit plugin for Unreal Engine 5.5+**
 
-Gateweaver is a powerful yet simple UE5 plugin that brings seamless portal mechanics to any projects. Create full functional portals that allow players to see, move, and interact across different spaces in real time using Render Target. It works instantly with customisable settings so you can drop portal objects into your game and start portaling through immediately.
+Gateweaver is a powerful yet simple UE5 plugin that brings seamless portal mechanics to any project. Create full functional portals that allow players to see, move, and interact across different spaces in real time using Render Target. It works instantly with customisable settings so you can drop portal objects into your game and start portaling through immediately.
 
 ## Features
 - Create seamless portal pairs or portals with multiple entry/exit points using simple in-editor configuration.
