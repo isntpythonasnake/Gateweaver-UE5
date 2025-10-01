@@ -11,6 +11,7 @@ Gateweaver is a powerful yet simple UE5 plugin that brings seamless portal mecha
 - Allow/disallow types of surfaces where portals may or may not spawn, such as terrain surfaces.
 - Objects or collision boxes that deletes portals.
 - Add a customisable loading screen for long distance portals.
+- Physics are fully translated between portals. Throw an object into one portal and it comes flying out through the other!
 - 
 
 ## Getting Started
