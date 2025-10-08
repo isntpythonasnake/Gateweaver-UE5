@@ -8,7 +8,7 @@ Gateweaver is a powerful yet simple UE5 plugin that brings seamless "portal" mec
 ## Features
 - Create seamless portal pairs or portals with multiple entry/exit points using simple in-editor configuration.
   - Adjust mesh and texture of portal.
-  - Portal type (pair or multiple).
+  - Portal type (pair or multiple). (Future feature)
 - Portal can be spawned with collisions, object interactions, equipped tools, or point-and-click turrets.
 - Allow/disallow types of surfaces where portals may or may not spawn, such as terrain surfaces.
 - Objects or collision boxes that deletes portals.
@@ -20,6 +20,14 @@ Gateweaver is a powerful yet simple UE5 plugin that brings seamless "portal" mec
 
 
 ### Setting Up
+<details>
+<summary>Portal Setup</summary>
+
+The portal has a black surface at first, and this is because you need to setup render targets for each portal. Refer to the **Render Targets Setup tab** below to learn how to set them up.<br/>
+Portals need to be in pairs in order to work, obviously! Drag 2 portals into the game world. In the details panel of each portal, select the Exit Portal as the other portal. This will automatically teleport the player to the other portal when they step into one.
+</details>
+
+
 <details>
 <summary>Render Targets Setup</summary>
   
