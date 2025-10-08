@@ -14,7 +14,6 @@ Gateweaver is a powerful yet simple UE5 plugin that brings seamless "portal" mec
 - Objects or collision boxes that deletes portals.
 - Add a customisable loading screen for long distance portals.
 - Physics are fully translated between portals. Throw an object into one portal and it comes flying out through the other!
-- 
 
 ## Getting Started
 ### Installation
@@ -24,9 +23,9 @@ Gateweaver is a powerful yet simple UE5 plugin that brings seamless "portal" mec
 <details>
 <summary>Render Targets Setup</summary>
   
-**Forewarning:** I'm unable to create automatically render targets using Blueprints, a limitation of Blueprints unfortunately. You will have to create it yourself through my step-by-step tutorial below. Don't worry, it's fairly easy.
+**Forewarning:** I'm unable to automatically create render targets using Blueprints, a limitation of Blueprints unfortunately. You will have to create it yourself through my step-by-step tutorial below. Don't worry, it's fairly easy.
 
-You're going to need **1 Render Target and 1 Material** for the render target per portal. This tutorial was made for only 1 portal! **Do the same steps for your exit portal as well.**
+You're going to need **1 Render Target and 1 Material** for the render target per portal. This tutorial was made for only one portal! **Do the same steps for your exit portal as well.**
 1. Right click on your project folder in the content browser and create a new **Render Target 2D**. Name it something recognisable like *RT_Portal_Entry_A*. Leave it untouched.
 <img width="535" height="391" alt="Screenshot 2025-10-08 205520" src="https://github.com/user-attachments/assets/400d493c-1a33-4158-baf7-b94599171f84" />
 
