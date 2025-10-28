@@ -14,6 +14,10 @@ Gateweaver is a simple UE5 plugin that brings seamless "portal" mechanics to any
 - Objects or collision boxes that deletes portals.
 - Physics are fully translated between portals. Throw an object into one portal and it comes flying out through the other!
 
+## Things to note
+There are a few limitations with this portal that I'm unable to resolve at this time:
+1. Portals have 2 collision boxes, PlayerNearby that detects when the player is near a portal, and PlayerTeleport teleports the player. The problem is the latter collision box has to be placed **behind** the portal to give the impression of walking into a portal. This means that you can't place portals directly on walls where physics collisions are enabled.
+
 ## TODO
 - [X] Portals can teleport player and keep their velocity, including launching players when entered with momentum.
 - [x] Dynamic Render Target and materials for each portal actor spawned with its configurable settings.
