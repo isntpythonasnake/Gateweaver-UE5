@@ -24,6 +24,7 @@ There are a few limitations with this portal that I'm unable to resolve at this 
 - [x] Portals equipped with a panel to *hide* the other side and behave as a moveable object for actor interaction.
 - [x] Allow user to use their own custom meshes and effects.
 - [x] Portals can be spawned by another actor.
+- [ ] Transition an additional camera to make teleportation seamless for third person characters. (Target view with blend)
 - [ ] Types of surfaces to allow or disallow portals spawning.
 - [ ] Objects or collision boxes that deletes portals.
 - [ ] Other Actors teleport interactions with portal.
