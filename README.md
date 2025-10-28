@@ -16,7 +16,7 @@ Gateweaver is a simple UE5 plugin that brings seamless "portal" mechanics to any
 
 ## Things to note
 There are a few limitations with this portal that I'm unable to resolve at this time:
-1. ~~Portals have 2 collision boxes, PlayerNearby that detects when the player is near a portal, and PlayerTeleport teleports the player. The problem is the latter collision box has to be placed **behind** the portal to give the impression of walking into a portal. This means that you can't place portals directly on walls where physics collisions are enabled.~~ Bypassed by using a static mesh instead of a collision box inside the portal surface itself.
+1. ~~Portals have 2 collision boxes, PlayerNearby that detects when the player is near a portal, and PlayerTeleport teleports the player. The problem is the latter collision box has to be placed **behind** the portal to give the impression of walking into a portal. This means that you can't place portals directly on walls where physics collisions are enabled.~~ **Bypassed by using a static mesh instead of a collision box inside the portal surface itself.**
 
 ## TODO
 - [X] Portals can teleport player and keep their velocity, including launching players when entered with momentum.
