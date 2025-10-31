@@ -31,6 +31,7 @@ There are a few limitations with this portal that I'm unable to resolve at this 
 - [ ] Transition an additional camera to make teleportation seamless for third person characters. (Target view with blend)
 - [ ] Types of surfaces to allow or disallow portals spawning.
 - [ ] Objects or collision boxes that deletes portals.
+- [ ] Toggle disable render targets for portals that aren't in view (Lag).
 - [ ] Other Actors teleport interactions with portal.
 
 ## Getting Started
