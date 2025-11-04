@@ -7,7 +7,7 @@ Gateweaver is a simple UE5 plugin that brings seamless "portal" mechanics to any
 
 ## Features
 - Create seamless portal pairs or portals with multiple entry/exit points using simple in-editor configuration.
-  - Adjust mesh and texture of portal.
+  - Adjust mesh and texture of portal. (Future feature)
   - Portal type (pair or multiple). (Future feature)
 - Portal can be spawned with collisions, object interactions, equipped tools, or point-and-click turrets.
 - Allow/disallow types of surfaces where portals may or may not spawn, such as terrain surfaces.
@@ -16,7 +16,7 @@ Gateweaver is a simple UE5 plugin that brings seamless "portal" mechanics to any
 
 ## Things to note
 There are a few limitations with this portal that I'm unable to resolve at this time:
-1. Portals have 2 collision boxes, PlayerNearby that detects when the player is near a portal, and PlayerTeleport teleports the player. The problem is the latter collision box has to be placed **behind** the portal to give the impression of walking into a portal. This means that you can't place portals directly on walls where physics collisions are enabled.
+1. ~~Portals have 2 collision boxes, PlayerNearby that detects when the player is near a portal, and PlayerTeleport teleports the player. The problem is the latter collision box has to be placed **behind** the portal to give the impression of walking into a portal. This means that you can't place portals directly on walls where physics collisions are enabled.~~
 
 ## Bugs
 - ~~Camera tilted on the roll axis when the linked portal is rotated.~~
@@ -30,7 +30,7 @@ There are a few limitations with this portal that I'm unable to resolve at this 
 - [x] Portals can be spawned by another actor.
 - [x] Transition an additional camera to make teleportation seamless for third person characters. (Target view with blend)
 - [ ] Types of surfaces to allow or disallow portals spawning.
-- [ ] Objects or collision boxes that deletes portals.
+- [x] Objects or collision boxes that deletes portals.
 - [ ] Toggle disable render targets for portals that aren't in view (Lag).
 - [ ] Other Actors teleport interactions with portal.
 
@@ -47,8 +47,11 @@ Portals need to be in pairs in order to work, obviously! Drag 2 portals into the
 New portals will look like this. Don't be too intimidated by the black textures.
 <img width="1320" height="909" alt="image" src="https://github.com/user-attachments/assets/d5b5bcd7-d467-4ddc-9f9a-b6396acfe3f2" />
 
-In the details panel of said portal, you'll find the Portal Setup category with: Exit Portal, Niagara Min/Max Colours, and Panel Colour. The colours don't correspond to the exit portal, meaning you have the freedom to colour them however you wish! Point the Exit Portal to the destination portal. 
-<img width="514" height="133" alt="image" src="https://github.com/user-attachments/assets/ab72d9d1-94d3-4712-ae7e-bf501d9ccf5a" />
+In the details panel of said portal, you'll find the Portal Setup category with: Exit Portal, Panel Colour, and Frame Colour. 
+1. The colours don't correspond to the exit portal, meaning you have the freedom to colour them however you wish! Point the Exit Portal to the destination portal.
+2. Panel colour: Colour of the portal's panel.
+3. Frame colour: Colour of the portal's noisy border.
+
 
 
 </details>
