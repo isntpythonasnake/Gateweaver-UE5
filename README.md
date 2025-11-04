@@ -48,7 +48,8 @@ New portals will look like this. Don't be too intimidated by the black textures.
 <img width="1320" height="909" alt="image" src="https://github.com/user-attachments/assets/d5b5bcd7-d467-4ddc-9f9a-b6396acfe3f2" />
 
 In the details panel of said portal, you'll find the Portal Setup category with: Exit Portal, Panel Colour, and Frame Colour. 
-1. The colours don't correspond to the exit portal, meaning you have the freedom to colour them however you wish! Point the Exit Portal to the destination portal.
+1. Point the Exit Portal to the destination portal.
+The colours don't correspond to the exit portal, meaning you have the freedom to colour them however you wish!
 2. Panel colour: Colour of the portal's panel.
 3. Frame colour: Colour of the portal's noisy border.
 
