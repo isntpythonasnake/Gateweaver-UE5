@@ -20,7 +20,7 @@ Gateweaver is a simple UE5 plugin that brings seamless "portal" mechanics to any
 - [X] Portals can teleport player and keep their velocity, including launching players when entered with momentum.
 - [x] Dynamic Render Target and materials for each portal actor spawned with its configurable settings.
 - [x] Portals equipped with a panel to *hide* the other side and behave as a moveable object for actor interaction.
-- [x] Allow user to use their own custom meshes and effects.
+- [x] ~~Allow user to use their own custom meshes and effects.~~ (Bugged, future feature perhaps)
 - [x] Portals can be spawned by another actor.
 - [x] Transition an additional camera to make teleportation seamless for third person characters. (Target view with blend)
 - [x] Types of surfaces to allow or disallow portals spawning.
