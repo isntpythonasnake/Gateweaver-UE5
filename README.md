@@ -21,7 +21,7 @@ Gateweaver is a simple UE5 plugin that brings seamless "portal" mechanics to any
 - [x] Dynamic Render Target and materials for each portal actor spawned with its configurable settings.
 - [x] Portals equipped with a panel to *hide* the other side and behave as a moveable object for actor interaction.
 - [x] ~~Allow user to use their own custom meshes and effects.~~ (Bugged, future feature perhaps)
-- [x] Portals can be spawned by another actor.
+- [x] Portal gun that spawns portals in a set interval.
 - [x] Transition an additional camera to make teleportation seamless for third person characters. (Target view with blend)
 - [x] Types of surfaces to allow or disallow portals spawning.
 - [x] Objects or collision boxes that deletes portals.
@@ -43,9 +43,11 @@ New portals will look like this. Don't be too intimidated by the black textures.
 
 In the details panel of said portal, you'll find the Portal Setup category with: Exit Portal, Panel Colour, and Frame Colour. 
 1. Point the Exit Portal to the destination portal.
-The colours don't correspond to the exit portal, meaning you have the freedom to colour them however you wish!
-2. Panel colour: Colour of the portal's panel.
-3. Frame colour: Colour of the portal's noisy border.
+2. Panel colour: Colour of the portal's panel. 
+3. Frame colour: Colour of the portal's noisy border. The colours don't correspond to the exit portal, meaning you have the freedom to colour them however you wish!
+4. Is Panel Hidden: By default, panels should be hidden unless you'd like to have them rotatable via an external actor like a button.
+6. Is Portal For Gun?: Set to true if you'd like to link this portal to a portal gun.
+7. BP Portal Gun: If (5) is set to true, select the portal gun to link this portal to.
 
 
 
