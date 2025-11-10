@@ -26,7 +26,8 @@ Gateweaver is a simple UE5 plugin that brings seamless "portal" mechanics to any
 - [x] Types of surfaces to allow or disallow portals spawning.
 - [x] Objects or collision boxes that deletes portals.
 - [x] Toggle disable render targets for portals that aren't in view (Lag).
-- [ ] Other Actors teleport interactions with portal.
+- [X] Other Actors teleport interactions with portal.
+- [ ] Portal gun aim animation
 
 ## Getting Started
 ### Installation
