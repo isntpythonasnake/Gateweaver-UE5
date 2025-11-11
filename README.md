@@ -1,5 +1,5 @@
 # Gateweaver
-**A portal creation kit plugin for Unreal Engine 5.5+**
+**A portal creation kit plugin for Unreal Engine 5.5+** `Unreleased v0.12.11112025`
 
 # The plugin is 90% done and should be released soon!
 
