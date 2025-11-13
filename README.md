@@ -37,27 +37,5 @@ Create portals, physics cube spawner (for portal interactions or more), portal g
 | Portal gun | Portal gun aim animation. |  | 
 
 ## Getting Started
-### Installation
-
-
-### Setting Up
-<details>
-<summary>Portal Setup</summary>
-
-Portals need to be in pairs in order to work, obviously! Drag 2 portals into the game world. In the details panel of each portal, select the Exit Portal as the other portal. This will automatically teleport the player to the other portal when they step into one.
-
-New portals will look like this. Don't be too intimidated by the unassuming textures.
-<img width="1320" height="909" alt="image" src="https://github.com/user-attachments/assets/d5b5bcd7-d467-4ddc-9f9a-b6396acfe3f2" />
-
-In the details panel of said portal, you'll find the Portal Setup and the Is Portal For Gun categories:
-1. Point the Exit Portal to the destination portal.
-2. Panel colour: Colour of the portal's panel. 
-3. Frame colour: Colour of the portal's noisy border. The colours don't correspond to the exit portal, meaning you have the freedom to colour them however you wish!
-4. Is Panel Hidden: By default, panels should be hidden unless you'd like to have them rotatable via an external actor like a button.
-6. Is Portal For Gun?: Set to true if you'd like to link this portal to a portal gun.
-7. BP Portal Gun: If (5) is set to true, select the portal gun to link this portal to.
-
-WIP more details coming soon because im too preoccupied with the plugin i don't really have time for documentation writing lol
-
-</details>
-
+### Everything's been moved to the Wiki! 
+https://github.com/isntpythonasnake/Gateweaver-UE5/wiki
