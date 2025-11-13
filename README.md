@@ -15,7 +15,7 @@ Create portals, physics cube spawner (for portal interactions or more), portal g
 - Portal can be spawned with the portal gun or any other collisions, object interactions, equipped tools, or point-and-click turrets. Simply using a neat event!
 - Allow/disallow types of surfaces where portals may or may not spawn, such as uneven surfaces.
 - Other actors that hides/unhides portals.
-- Physics are fully translated between portals. In layman's terms, speedy thing goes in, speedy thing comes out!
+- Momentum. The function of mass and velocity is conserved between portals. In layman's terms, speedy thing goes in, speedy thing comes out!
 
 ## TODO
 | Thing | Description | Completed? | Remarks |
