@@ -1,7 +1,7 @@
 # Gateweaver
-**A portal mechanics suite plugin for Unreal Engine 5.5+** `Unreleased v0.12.11112025`
+**A portal mechanics suite plugin for Unreal Engine 5.5+** `Unreleased v1.0`
 
-# The plugin is 90% done and should be released soon!
+# The plugin is 95% done! If you're from TD module, please feel free to test it because it's my first time packaging a plugin... it might break.
 
 Ever wanted to make a warp gate, a Valve's Portal-esque game, a mirror into another dimension, or even a simple CCTV... TV without going into code?
 
