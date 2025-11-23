@@ -1,5 +1,5 @@
 # Gateweaver
-**A portal mechanics suite plugin for Unreal Engine 5.5+** `Unreleased v1.0`
+**A portal mechanics suite plugin for Unreal Engine 5.5+** `Beta v1.0`
 
 # The plugin is 95% done! If you're from TD module, please feel free to test it because it's my first time packaging a plugin... it might break.
 
