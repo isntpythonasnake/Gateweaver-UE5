@@ -25,15 +25,12 @@ Create portals, physics cube spawner (for portal interactions or more), portal g
 | :------------: | :------------- | :------------: | :------------: |
 | Portal | Portals can teleport player and keep their velocity, including launching players when entered with momentum. | ✔️ |
 | Portal | Dynamic Render Target and materials for each portal actor spawned with its configurable settings. | ✔️ |
-| Portal | Portals equipped with a panel to *hide* the other side and behave as a moveable object for actor interaction. | ✔️ |
-| Portal | ~~Allow user to use their own custom meshes and effects.~~ | ❌ | Bugged, future feature perhaps |
+| Portal | Portals equipped with a panel to *hide* the other side or behave as a moveable object for actor interaction. | ✔️ |
 | Portal gun | Portal gun that spawns portals in a set interval. | ✔️ |
-| Camera | Transition an additional camera to make teleportation seamless for third person characters. | ✔️ | Target view with blend |
 | Portal gun | Types of surfaces to allow or disallow portals spawning. | ✔️ |
 | Hiding portals | Actors that hide/unhide portals for lag reduction. | ✔️ | Lag reduction |
 | Portal | Toggle disable render targets for portals that aren't in view. | ✔️ | Lag reduction |
 | Physics actors | Other Actors teleport interactions with portal. | ✔️ | 
-| Physics actors | Change physics cube to missile. |  | For sample level and boss fight |
 | Portal gun | Portal gun aim animation. |  | 
 
 ## Getting Started
