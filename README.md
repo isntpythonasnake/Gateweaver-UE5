@@ -11,7 +11,6 @@ Create portals, physics cube spawner (for portal interactions or more), portal g
 - Create seamless portal pairs using simple in-editor configuration.
 - Portal gun to aim and spawn portals on allowed surfaces using a custom "PortalPassthrough" collision channel.
 - Objects spawner to spawn a physics cube for button interactions.
-- Cinematic camera system triggered using events.
 - Portal can be spawned with the portal gun or any other collisions, object interactions, equipped tools, or point-and-click turrets. Simply using a neat event!
 - Allow/disallow types of surfaces where portals may or may not spawn, such as uneven surfaces.
 - Other actors that hides/unhides portals.
