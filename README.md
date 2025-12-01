@@ -29,6 +29,7 @@ Create portals, physics cube spawner (for portal interactions or more), portal g
 | Portal gun | Types of surfaces to allow or disallow portals spawning. | ✔️ |
 | Hiding portals | Actors that hide/unhide portals for lag reduction. | ✔️ | Lag reduction |
 | Portal | Toggle disable render targets for portals that aren't in view. | ✔️ | Lag reduction |
+| Portal | Toggle disable render targets for portals when in level editor. | ✔️ | Lag reduction |
 | Physics actors | Other Actors teleport interactions with portal. | ✔️ | 
 | Portal gun | Portal gun aim animation. |  | 
 
