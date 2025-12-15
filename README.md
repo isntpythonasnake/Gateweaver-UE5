@@ -1,6 +1,8 @@
 # Gateweaver
 **A portal mechanics suite plugin for Unreal Engine 5.5+** `Release v2.0`
 
+Hello testers and lecturers, if you're reading this, please also read the [Getting Started bit](https://github.com/isntpythonasnake/Gateweaver-UE5/edit/main/README.md#getting-started) before downloading the plugin. Thanks!
+
 # The plugin is released!
 Create portals, physics cube spawner (for portal interactions or more), portal gun, portal trigger boxes for hiding/showing portals. May also include a camera system that transitions cameras for live cinematics. Portals are fully equipped with physics and momentum.
 
@@ -17,6 +19,7 @@ Create portals, physics cube spawner (for portal interactions or more), portal g
 - As Unreal Engine render pipeline isn't recursive by default, other portals' render target will appear as black. Manually simulating this is performance heavy and would only work if only two portals are spawned. However as it happens, I found a way to make it so that render targets will only actively render when the player has the portal in view, except this won't likely be in the plugin at this time as it's not in my list of priorities.
 
 ## Getting Started
+Please do read [this page](https://github.com/isntpythonasnake/Gateweaver-UE5/wiki/Configure-Your-Project) **BEFORE** importing the plugin into your project. It's imperative that you do it, otherwise you might break something! I can't stress this enough. 
 
 ### Everything's been moved to the Wiki! 
 https://github.com/isntpythonasnake/Gateweaver-UE5/wiki
