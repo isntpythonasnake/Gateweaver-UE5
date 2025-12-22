@@ -1,7 +1,7 @@
 # Gateweaver
 **A portal mechanics suite plugin for Unreal Engine 5.5+** `Release v2.0`
 
-Hello testers and lecturers, if you're reading this, please also read the [Getting Started bit](https://github.com/isntpythonasnake/Gateweaver-UE5/edit/main/README.md#getting-started) before downloading the plugin. Thanks!
+Hello testers and lecturers, if you're reading this, please also read the [Getting Started bit](https://github.com/isntpythonasnake/Gateweaver-UE5/wiki) before downloading the plugin. Thanks!
 
 # The plugin is released!
 Create portals, physics cube spawner (for portal interactions or more), portal gun, portal trigger boxes for hiding/showing portals. May also include a camera system that transitions cameras for live cinematics. Portals are fully equipped with physics and momentum.
