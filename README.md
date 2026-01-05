@@ -1,5 +1,5 @@
 # Gateweaver
-**A portal mechanics suite plugin for Unreal Engine 5.5+** `Release v2.1`
+**A portal mechanics suite plugin for Unreal Engine 5.5+** `Release v2.2`
 
 Hello testers and lecturers, if you're reading this, please also read the [Configure Your Project](https://github.com/isntpythonasnake/Gateweaver-UE5/wiki/Configure-Your-Project) before downloading the plugin. Thanks!
 
