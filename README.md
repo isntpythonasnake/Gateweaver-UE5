@@ -22,14 +22,12 @@ Apologies, I tried to upload GIFs but the best GIF hosting website saw itself ou
 <img width="1283" height="529" alt="image" src="https://github.com/user-attachments/assets/e1f375e4-68a1-4887-9ce4-8c0bcc2d7bd0" />
 </details>
 <details>
-<br/>
 <summary>Cube</summary>
 <img width="940" height="488" alt="image" src="https://github.com/user-attachments/assets/ab823c8d-5cd1-416c-98f0-5c1b2dd0b9ae" />
-<br/>
 </details>
 <details>
 <summary>Portal Gun</summary>
-<img width="1170" height="648" alt="image" src="https://github.com/user-attachments/assets/5afa336a-a510-4c74-bca6-45e878217da0" /><br/>
+<img width="1170" height="648" alt="image" src="https://github.com/user-attachments/assets/5afa336a-a510-4c74-bca6-45e878217da0" />
 </details>
 
 ## Limitations
