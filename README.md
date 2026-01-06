@@ -15,6 +15,23 @@ Create portals, physics cube spawner (for portal interactions or more), portal g
 - Other actors that hides/unhides portals.
 - Momentum. The function of mass and velocity is conserved between portals. In layman's terms, speedy thing goes in, speedy thing comes out!
 
+### Plugin In Action <br/>
+Apologies, I tried to upload GIFs but the best GIF hosting website saw itself out of UK. :( Here are great pictures instead!<br/>
+<details open>
+<summary>Portals</summary>
+<img width="1283" height="529" alt="image" src="https://github.com/user-attachments/assets/e1f375e4-68a1-4887-9ce4-8c0bcc2d7bd0" />
+</details>
+<details>
+<br/>
+<summary>Cube</summary>
+<img width="940" height="488" alt="image" src="https://github.com/user-attachments/assets/ab823c8d-5cd1-416c-98f0-5c1b2dd0b9ae" />
+<br/>
+</details>
+<details>
+<summary>Portal Gun</summary>
+<img width="1170" height="648" alt="image" src="https://github.com/user-attachments/assets/5afa336a-a510-4c74-bca6-45e878217da0" /><br/>
+</details>
+
 ## Limitations
 - As Unreal Engine render pipeline isn't recursive by default, other portals' render target will appear as black. Manually simulating this is performance heavy and would only work if only two portals are spawned. However as it happens, I found a way to make it so that render targets will only actively render when the player has the portal in view, except this won't likely be in the plugin at this time as it's not in my list of priorities.
 
